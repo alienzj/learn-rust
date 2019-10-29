@@ -18,8 +18,8 @@ fn main()
     let b = plus_one(5);
     println!("The value of b is: {}", b);
 
-    let c = plus_one2(5);
-    println!("The value of c is: {}", c);
+ //   let c = plus_one2(5);
+ //   println!("The value of c is: {}", c);
 }
 
 fn another_function(x: i32, y: i32)
@@ -38,7 +38,7 @@ fn plus_one(x: i32) -> i32
     x + 1 // expression: return i32
 }
 
-fn plus_one2(x: i32) -> i32
-{
-    x + 1; // statement: return ()
-}
+//fn plus_one2(x: i32) -> i32
+//{
+//    x + 1; // statement: return ()
+//}
