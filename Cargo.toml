@@ -33,5 +33,9 @@ name = "rb-3-1"
 path = "src/rust-book/3.1.rs"
 
 [[bin]]
+name = "rb-3-2"
+path = "src/rust-book/3.2.rs"
+
+[[bin]]
 name = "chart_plot"
 path = "src/plotters/main.rs"
