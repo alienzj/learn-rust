@@ -1,5 +1,4 @@
-fn main()
-{
+fn main() {
     // scalar
     // integer
     //let guess = "43".parse().expect("Not a number!");
@@ -24,7 +23,7 @@ fn main()
     // Byte (u8 only)     b'A'
 
     // floating=point
-    let x = 2.0;      // f64
+    let x = 2.0; // f64
     let y: f32 = 3.0; // f32
     println!("The value of x is {}", x);
     println!("The value of y is {}", y);
@@ -66,12 +65,20 @@ fn main()
 
     // array
     let _m = [1, 2, 3, 4, 5];
-    let _months = ["January", "February",
-                  "March", "April",
-                  "May", "June",
-                  "July", "August",
-                  "Spetember", "October",
-                  "November", "December"];
+    let _months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "Spetember",
+        "October",
+        "November",
+        "December",
+    ];
 
     let _a: [i32; 5] = [1, 2, 3, 4, 5];
     let _a2 = [3; 5];
