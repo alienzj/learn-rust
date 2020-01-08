@@ -11,6 +11,14 @@ bio = "0.28.2"
 rand = "0.7.0"
 plotters = "^0.2.6"
 
+[dependencies.gtk]
+version = "0.8.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = "0.8.0"
+features = ["v2_44"]
+
 [[bin]]
 name = "rb-1-1"
 path = "src/rust-book/1.1.rs"
@@ -51,3 +59,7 @@ path = "src/rust-book/3.5.rs"
 [[bin]]
 name = "chart_plot"
 path = "src/plotters/main.rs"
+
+[[bin]]
+name = "gtk_basic_example"
+path = "src/gtk/hello_world.rs"
