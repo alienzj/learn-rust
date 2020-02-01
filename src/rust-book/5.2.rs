@@ -13,7 +13,10 @@ fn main() {
         area_v2(rect1)
     );
 
-    let rect2 = Rectangle { width: 30, height: 50 };
+    let rect2 = Rectangle {
+        width: 30,
+        height: 50,
+    };
     println!(
         "The area of the rectangle is {} square pixels.",
         area_v3(&rect2)

@@ -18,11 +18,7 @@ fn main() {
     }
 
     let condition = true;
-    let number2 = if condition {
-        5
-    } else {
-        6
-    };
+    let number2 = if condition { 5 } else { 6 };
     println!("The value of number2 is: {}", number2);
 
     // loop {

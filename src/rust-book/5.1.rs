@@ -34,9 +34,9 @@ fn main() {
     let _user4 = build_user("hello@world.com".to_string(), "world".to_string());
 
     let black = Color(0, 0, 0);
-    println!{"{}", black.1};
+    println! {"{}", black.1};
 
-    let origin = Point(0, 0 , 0);
+    let origin = Point(0, 0, 0);
 
     let Point(_a, _b, _c) = origin; // destructure
 }

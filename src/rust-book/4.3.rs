@@ -10,7 +10,7 @@ fn main() {
     let w = &s[6..11];
     // s.clear();
     // Diagam
-    
+
     //       s
     // name     value             index value
     // ptr      -------->         0     h

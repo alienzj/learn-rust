@@ -66,7 +66,7 @@ fn main() {
     // Ownership and Functions
     let ss = String::from("hello");
     takes_ownership(ss); // ss has been moved
-    // println!("{}", ss);
+                         // println!("{}", ss);
 
     let xx = 5;
     makes_copy(xx);
