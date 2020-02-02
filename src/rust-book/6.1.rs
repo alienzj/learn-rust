@@ -8,7 +8,7 @@ struct IpAddr_ {
     address: String,
 }
 
-fn route(ip_kind: IpAddrKind) {
+fn route(_ip_kind: IpAddrKind) {
    
 }
 
@@ -59,13 +59,13 @@ fn main() {
     let m = Message::Write(String::from("hello"));
     m.call();
 
-    let some_number = Some(5);
-    let some_string = Some("a string");
+    let _some_number = Some(5);
+    let _some_string = Some("a string");
 
-    let absent_number: Option<i32> = None;
+    let _absent_number: Option<i32> = None;
 
-    let x: i8 = 5;
-    let y: Option<i8> = Some(5);
+    let _x: i8 = 5;
+    let _y: Option<i8> = Some(5);
 
-    // let sum = x + y;
+    // let sum = _x + _y;
 }
