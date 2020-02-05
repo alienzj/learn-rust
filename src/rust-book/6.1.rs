@@ -8,9 +8,7 @@ struct IpAddr_ {
     address: String,
 }
 
-fn route(_ip_kind: IpAddrKind) {
-   
-}
+fn route(_ip_kind: IpAddrKind) {}
 
 enum IpAddr {
     V4(u8, u8, u8, u8),
