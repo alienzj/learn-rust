@@ -117,6 +117,10 @@ name = "rb-9-3"
 path = "src/rust-book/9.3.rs"
 
 [[bin]]
+name = "rb-10-1"
+path = "src/rust-book/10.1.rs"
+
+[[bin]]
 name = "chart_plot"
 path = "src/plotters/main.rs"
 
