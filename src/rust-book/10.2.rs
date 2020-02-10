@@ -1,5 +1,7 @@
 pub trait Summary {
-    fn summarize(&self) -> String;
+    fn summarize(&self) -> String {
+        String::from("(Read more...)")
+    }
 }
 
 pub struct NewsArticle {
@@ -28,6 +30,31 @@ impl Summary for Tweet {
     }
 }
 
+pub struct Paper {
+    pub author: String,
+    pub title: String,
+    pub journal: String,
+    pub describtion: String,
+}
+
+impl Summary for Paper {}
+
+pub fn notify(item: impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+
+pub fn notify_full<T: Summary>(item: T) {
+    println!("Breaking news! {}", item.summarize());
+}
+
+// pub fn notify(item1: impl Summary, item2: impl Summary)
+// pub fn notify<T: Summary>(item1: T, item2: T)
+
+// pub fn notify(item: impl Summary + Display)
+// pub fn notify<T: Summary + Display>(item: T)
+
+
+
 fn main() {
     let tweet = Tweet {
         username: String::from("horse_ebooks"),
@@ -37,4 +64,12 @@ fn main() {
     };
 
     println!("1 new tweet: {}", tweet.summarize());
+
+    let paper = Paper {
+        author: String::from("LMN"),
+        title: String::from("MesKit"),
+        journal: String::from("Bioinformatics"),
+        describtion: String::from("Multi-region exome sequencing analysis tool kit"),
+    };
+    println!("New paper available! {}", paper.summarize());
 }
