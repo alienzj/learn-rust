@@ -35,6 +35,14 @@ mod tests {
         assert_eq!(2 + 2, 4);
     }
 
+    fn it_works_v2() -> Result<(), String> {
+        if 2 + 2 == 4 {
+            Ok(())
+        } else {
+            Err(String::from("two plus two does not equal four"))
+        }
+    }
+
     #[test]
     fn exploration() {
         assert_eq!("hello world", "hello".to_owned() + " world");
@@ -65,6 +73,17 @@ mod tests {
         let result = greeting_hello("hello");
         assert!(result.contains("Hello"));
     }
+
+    #[test]
+    #[should_panic]
+    fn greater_than_100() {
+        Guess::new(200);
+    }
+
+    //#[test]
+    //fn greater_than_100() {
+    //    Guess::new(200);
+    //}
 }
 
 //#[cfg(test)]
