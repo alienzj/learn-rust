@@ -122,6 +122,7 @@ fn capturing_env_with_closures() {
     assert!(equal_to_x(y));
 }
 
+/*
 #[test]
 fn capturing_env_with_fn() {
     let x = 4;
@@ -134,7 +135,9 @@ fn capturing_env_with_fn() {
 
     assert!(equal_to_x(y));
 }
+*/
 
+/*
 #[test]
 fn capturing_env_with_closures_move() {
     let x = vec![1, 2, 3];
@@ -147,3 +150,4 @@ fn capturing_env_with_closures_move() {
 
     assert!(equal_to_x(y));
 }
+*/
