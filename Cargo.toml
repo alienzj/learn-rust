@@ -3,6 +3,8 @@ name = "learn-rust"
 version = "0.1.0"
 authors = ["alienzj <alienchuj@gmail.com>"]
 edition = "2018"
+description = "learning rust"
+license = "GPL v3"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
