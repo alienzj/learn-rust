@@ -1,2 +1,3 @@
 /target
 **/*.rs.bk
+notebook/.ipynb_checkpoints/
