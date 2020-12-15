@@ -16,12 +16,16 @@ glib = "^0"
 gtk = "^0"
 gio = "^0"
 
+[dev-dependencies]
+criterion = "0.3"
+
 [profile.dev]
 opt-level = 0
 
 [profile.release]
 opt-level = 3
 
+########################################### rust-book
 [[bin]]
 name = "rb-1-1"
 path = "src/rust-book/1.1.rs"
@@ -139,10 +143,20 @@ path = "src/rust-book/13.1.rs"
 name = "rb-13-2"
 path = "src/rust-book/13.2.rs"
 
+
+########################################### rust-std
+[[bench]]
+name = "rstd-io-bench"
+path = "src/rust-std/io.rs"
+
+
+########################################### plotters
 [[bin]]
 name = "chart_plot"
 path = "src/plotters/main.rs"
 
+
+########################################### gtk
 [[bin]]
 name = "gtk_basic_example"
 path = "src/gtk/hello_world.rs"
