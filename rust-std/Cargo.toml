@@ -1,0 +1,13 @@
+[package]
+name = "learn-rust-std"
+version = "0.1.0"
+authors = ["alienzj <alienchuj@gmail.com>"]
+edition = "2018"
+description = "learning rust std"
+license = "GPL v3"
+
+[[bin]]
+name = "io-test"
+path = "src/io.rs"
+# cargo run --bin rust-book-1-1
+

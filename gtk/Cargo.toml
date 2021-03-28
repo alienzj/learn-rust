@@ -1,0 +1,21 @@
+[package]
+name = "learn-gtk"
+version = "0.1.0"
+authors = ["alienzj <alienchuj@gmail.com>"]
+edition = "2018"
+description = "learning gtk"
+license = "GPL v3"
+
+[dependencies]
+glib = "0.10.3"
+gtk = "0.9.2"
+gio = "0.9.1"
+
+
+[[bin]]
+name = "gtk_basic_example"
+path = "src/hello_world.rs"
+
+[[bin]]
+name = "text_viewer"
+path = "src/text_viewer.rs"

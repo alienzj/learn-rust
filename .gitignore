@@ -1,4 +1,2 @@
 /target
-**/*.rs.bk
 notebook/.ipynb_checkpoints/
-src/rust-bio/target/

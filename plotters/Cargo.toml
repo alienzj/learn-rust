@@ -1,0 +1,15 @@
+[package]
+name = "learn-plotters"
+version = "0.1.0"
+authors = ["alienzj <alienchuj@gmail.com>"]
+edition = "2018"
+description = "learning plotters"
+license = "GPL v3"
+
+[dependencies]
+plotters = "0.3.0"
+
+[[bin]]
+name = "chart_plot"
+path = "src/main.rs"
+
