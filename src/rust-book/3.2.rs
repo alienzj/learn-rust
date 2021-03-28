@@ -74,7 +74,7 @@ fn main() {
         "June",
         "July",
         "August",
-        "Spetember",
+        "September",
         "October",
         "November",
         "December",
